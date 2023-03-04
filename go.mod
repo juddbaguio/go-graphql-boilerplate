@@ -5,6 +5,8 @@ go 1.20
 require (
 	github.com/99designs/gqlgen v0.17.25
 	github.com/caarlos0/env/v7 v7.0.0
+	github.com/go-chi/chi/v5 v5.0.8
+	github.com/go-chi/cors v1.2.1
 	github.com/vektah/gqlparser/v2 v2.5.1
 	go.mongodb.org/mongo-driver v1.11.2
 )
@@ -12,8 +14,6 @@ require (
 require (
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
-	github.com/go-chi/chi/v5 v5.0.8 // indirect
-	github.com/go-chi/cors v1.2.1 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.1 // indirect
